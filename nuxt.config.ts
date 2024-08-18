@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxtjs/google-fonts"],
+  modules: ["@nuxtjs/google-fonts", "@nuxt/icon"],
   googleFonts: {
     families: {
       "Inter Tight": {
