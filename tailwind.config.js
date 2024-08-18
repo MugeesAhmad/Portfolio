@@ -2,7 +2,14 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "hsl(var(--primary))",
+        secondary: "hsl(var(--secondary))",
+        darkBlack: "hsl(var(--dark-black))",
+        orange: "hsl(var(--orange))",
+      },
+    },
     container: {
       center: true,
     },

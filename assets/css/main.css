@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary: 216 100% 50%;
+  --secondary: 233 8% 22%;
+  --dark-black: 225 100% 2%;
+  --orange: 35 100% 48%;
+}
+
 * {
   font-family: "Inter Tight", sans-serif;
 }
