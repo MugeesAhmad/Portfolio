@@ -11,5 +11,13 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxtjs/google-fonts"]
+  modules: ["@nuxtjs/google-fonts"],
+  googleFonts: {
+    families: {
+      "Inter Tight": {
+        wght: [400, 500, 600, 700],
+      },
+    },
+    download: true,
+  },
 });
